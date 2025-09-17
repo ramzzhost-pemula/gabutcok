@@ -185,7 +185,7 @@ ${info.timestamp}`
       
 clientstart()
 
-app.get('/', (req, res) => {
+app.get('/public', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
 
